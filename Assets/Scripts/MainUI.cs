@@ -57,4 +57,10 @@ public class MainUI : MonoBehaviour{
         stocktonPanel.gameObject.SetActive(true);
     }
 
+    public void quit()
+    {
+        Application.Quit();
+    }
+    
+
 }
